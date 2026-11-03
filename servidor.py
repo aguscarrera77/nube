@@ -6,7 +6,8 @@ app = Flask(__name__)
 # Definimos una ruta (endpoint) y el método HTTP permitido (por defecto GET)
 @app.route('/')
 def home():
-    return jsonify({"mensaje": "¡Servidor local funcionando con éxito!", "estado": "activo"})
+    return jsonify({"mensaje":"Nuevo mensaje","programdor":"Agustin Carrera","mensaje":"Nueva Aplicacion funcionando"
+    })
 
 # Bloque de ejecución principal
 if __name__ == '__main__':
